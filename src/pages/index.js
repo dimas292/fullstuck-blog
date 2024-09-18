@@ -1,5 +1,5 @@
 import Login from "./login";
-import Home from "./home";
 import Register from "./register";
+import MainApp from './mainApp'
 
-export { Login, Home, Register }
+export { Login,  Register, MainApp }
