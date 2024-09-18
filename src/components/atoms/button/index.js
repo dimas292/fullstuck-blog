@@ -1,12 +1,12 @@
-import React from 'react'
-import './button.css'
+import React from "react";
+import "./button.css";
 
-const Button = ({title,color,bgColor,  ...rest}) => {
+const Button = ({ title, color, bgColor, ...rest }) => {
   return (
-    <div style={{"color" : color}}>
-      <button className='button'style={{backgroundColor:bgColor}}{...rest}>{title}</button>
-    </div>
-  )
-}
+    <button className="button" style={{ backgroundColor: bgColor }} {...rest}>
+      {title}
+    </button>
+  );
+};
 
-export default Button
+export default Button;

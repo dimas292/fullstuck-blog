@@ -1,10 +1,12 @@
 .footer{
-  background-color: #16423C;
+  background-color: #4F75FF;
   color: #C4DAD2;
+  padding: 12px;
 }
 
 .footer-content{
   display: flex;
+  font-size: 12px;
   justify-content: space-between;
   padding: 0 18px 0 18px;
   align-items: center;
