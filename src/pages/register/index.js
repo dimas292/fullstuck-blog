@@ -2,7 +2,6 @@ import "./register.css";
 import { RegsiterBg } from "../../assets";
 import { Input, Button, Gap, Link } from "../../components";
 
-
 const Register = () => {
   return (
     <div className="main-page">

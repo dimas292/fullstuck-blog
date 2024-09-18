@@ -10,4 +10,5 @@
   text-transform: uppercase;
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
+  cursor: pointer;
 }

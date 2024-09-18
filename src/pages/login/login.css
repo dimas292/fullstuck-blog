@@ -10,9 +10,10 @@
   background-color: red;
   height: 100%;
 }
-.right{
+.right-login{
   width: 460px;
-  background-color: #4F75FF;
+  background-color: #48CFCB;
+  color: black;
   padding: 12px;
   height: 100%;
   
@@ -22,10 +23,10 @@
   height: 100%;
   object-fit: cover;
 }
-.title{
+.title-login{
   font-size: 32px;
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
-  color: #F5EDED;
+  color: white;
 }
