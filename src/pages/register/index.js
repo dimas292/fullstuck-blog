@@ -1,6 +1,7 @@
 import "./register.css";
 import { RegsiterBg } from "../../assets";
-import { Input } from "../../components";
+import { Input, Button, Gap, Link } from "../../components";
+
 
 const Register = () => {
   return (
@@ -9,10 +10,16 @@ const Register = () => {
         <img src={RegsiterBg} alt="register" className="bg-image" />
       </div>
       <div className="right">
-        <p className="label">Register</p>
-        <Input label="username" type="text" />
-        <Input label="email" type="email" />
-        <Input label="password" type="password" />
+        <p className="title">Register</p>
+        <Input label="Full Name" placeholder="Full Name" />
+        <Gap height={20}/>
+        <Input label="Email" placeholder="Email" />
+        <Gap height={20}/>
+        <Input label="Password" placeholder="Password" />
+        <Gap height={50}/>
+        <Button title="Register" />
+        <Gap height={20}/>
+        <Link title="kembali ke login ?"/>
       </div>
     </div>
   );

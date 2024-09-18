@@ -1,0 +1,8 @@
+.link-title{
+  color: whitesmoke;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: center;
+  font-size: 12px;
+}
