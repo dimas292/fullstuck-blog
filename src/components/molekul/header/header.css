@@ -1,0 +1,29 @@
+.header{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 18px 0 18px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+
+  .logo{
+    color: #229799;
+    font-size: 24px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .menu-item img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+}
