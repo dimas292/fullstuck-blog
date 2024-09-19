@@ -1,10 +1,10 @@
 import React from 'react'
 import './input.css'
 
-const Input = ({label, ...rest}) => {
+const Input = ({label,textColor, ...rest}) => {
   return (
     <div>
-      <p className='label'>{label}</p>
+      <p className='label' style={{color: textColor}}>{label}</p>
       <input className='input'{...rest}/>
     </div>
   )
