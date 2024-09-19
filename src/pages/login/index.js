@@ -1,7 +1,9 @@
 import { LoginBg } from "../../assets";
 import { Input, Button, Gap, Link } from "../../components";
 import './login.css'
+import { useNavigate } from "react-router-dom";
 const Login = () => {
+  const navigate = useNavigate()
   return (
       <div className="main-page" >
       <div className="left">
@@ -13,9 +15,9 @@ const Login = () => {
         <Gap height={20} />
         <Input label="Password" placeholder="Password" />
         <Gap height={50}/>
-        <Button title="Login" color={"white"} bgColor={"#229799"}/>
+        <Button title="Login" color={"white"} bgColor={"#229799"} onClick={() => navigate('/')}/>
         <Gap height={20}/>
-        <Link title="belum punya akun? silahkan daftar"/>
+        <Link title="belum punya akun? silahkan daftar" onclick={() => navigate('/register')}/>
       </div>
     </div>
   )
